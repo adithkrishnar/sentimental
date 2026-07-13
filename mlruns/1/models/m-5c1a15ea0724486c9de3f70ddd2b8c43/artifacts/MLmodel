@@ -1,0 +1,33 @@
+artifact_path: file:D:/bootcamp placement training/pROJECT/mlruns/1/models/m-5c1a15ea0724486c9de3f70ddd2b8c43/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-5c1a15ea0724486c9de3f70ddd2b8c43
+model_size_bytes: 18252511
+model_uuid: m-5c1a15ea0724486c9de3f70ddd2b8c43
+prompts: null
+run_id: 64974fb438b447c28a50d9e2eef73f50
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: json_object
+signature:
+  inputs: '[{"type": "string", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-11 05:41:32.763502'

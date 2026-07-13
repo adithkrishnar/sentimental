@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.3333,
+  "sample_size": 15,
+  "f1_negative": 0.5,
+  "precision_negative": 0.3333,
+  "recall_negative": 1.0,
+  "f1_neutral": 0.0,
+  "precision_neutral": 0.0,
+  "recall_neutral": 0.0,
+  "f1_positive": 0.0,
+  "precision_positive": 0.0,
+  "recall_positive": 0.0,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ]
+}

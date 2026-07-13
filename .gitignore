@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data and downloaded caches
+data/
+.cache/
+
+# Ignore everything in models except the trained model and metrics
+models/*
+!models/sentiment_pipeline.joblib
+!models/metrics.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/

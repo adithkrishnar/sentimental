@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.4042,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "sample_size": 27481,
+  "f1_score_negative": 0.0,
+  "f1_score_neutral": 0.5757,
+  "f1_score_positive": 0.0012
+}
