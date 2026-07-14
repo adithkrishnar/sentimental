@@ -8,7 +8,6 @@ A production-grade, containerized MLOps API that trains a **TF-IDF + Logistic Re
 - **Lightweight Training:** Trains a Scikit-Learn TF-IDF + Logistic Regression pipeline in under 10 seconds on CPU.
 - **Multi-Class Prediction:** Classifies text as `positive`, `negative`, or `neutral` with confidence probabilities.
 - **FastAPI Backend:** Auto-generated Swagger UI at `/docs`.
-- **Async Logging:** Review inputs and predictions are saved to S3 (or local fallback) via background tasks.
 - **Docker Ready:** Runs dataset download and model training at image build-time.
 
 ---
