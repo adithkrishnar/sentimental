@@ -141,16 +141,6 @@ docker run -p 8000:8000 sentiment-api
 
 ---
 
-## AWS Elastic Beanstalk Deployment
-
-```bash
-pip install awsebcli
-eb init -p docker sentiment-api-service
-eb create sentiment-env
-eb deploy
-```
-
----
 
 ## Testing
 
